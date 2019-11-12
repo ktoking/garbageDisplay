@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.fehead.testproject.test.SimpleTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.369 s <<< FAILURE! - in com.fehead.testproject.test.SimpleTest
+insert(com.fehead.testproject.test.SimpleTest)  Time elapsed: 0.165 s  <<< ERROR!
+org.springframework.dao.DuplicateKeyException: 
+
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+### The error may exist in com/fehead/testproject/dao/UserDOMapper.java (best guess)
+### The error may involve com.fehead.testproject.dao.UserDOMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO user  ( id, user_phone, user_email, user_name, user_age )  VALUES  ( ?, ?, ?, ?, ? )
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+; Duplicate entry '5' for key 'PRIMARY'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+	at com.fehead.testproject.test.SimpleTest.insert(SimpleTest.java:47)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+	at com.fehead.testproject.test.SimpleTest.insert(SimpleTest.java:47)
+

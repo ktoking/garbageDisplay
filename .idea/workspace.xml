@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94f509ee-97f5-4832-b058-6b0bf185b5e3" name="Default Changelist" comment="垃圾分类图像识别">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spy.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/configuration/MyAMQPConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/configuration/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/picturesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao/LabelDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao/UserDOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/ImagesDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/LabelDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/UserDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/response/CommonReturnType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/ImageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/LabelServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/UserserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fehead/testproject/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fehead/testproject/test/SimpleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fehead/testproject/test/SpringBootAmqpAppTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/testproject.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/configuration/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/controller/currency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/controller/picturesController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/controller/utils/FileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/controller/utils/HttpUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/dao/LabelDOMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/dao/UserDOMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/dataobject/ImagesDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/dataobject/LabelDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/dataobject/UserDO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/response/CommonReturnType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/service/impl/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/service/impl/impl/ImageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/fehead/testproject/service/impl/impl/LabelServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spy.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fehead.testproject.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.fehead.testproject.test.SimpleTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.fehead.testproject.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.fehead.testproject.test.SimpleTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/fehead/testproject/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/fehead/testproject/test/SimpleTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testproject.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/picturesController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-266">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/LabelDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/ImagesDO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testproject.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spy.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/LabelServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/ImageServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>springframework</find>
+      <find>spring-boot-starter</find>
+      <find>mybatis</find>
+      <find>实体类</find>
+      <find>boot-st</find>
+      <find>amq</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao/UserDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao/UserDOMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/configuration/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spy.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/FileUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/HttpUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fehead/testproject/response/CommonReturnType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/response/CommonReturnType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/imagesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/UserDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/LabelsDO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao/LabelDOMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fehead/testproject/test/SpringBootAmqpAppTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/configuration/MyAMQPConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/UserserviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/LabelServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/fehead/testproject/test/SimpleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/picturesController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/ImageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/ImagesDO.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\w1550\.m2\repository" />
+        <option name="userSettingsFile" value="F:\JAVAlearnAbout\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="testproject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.springframework.boot:spring-boot-starter-web:2.1.6.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.springframework.boot:spring-boot-starter-json:2.1.6.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="349" />
+    <option name="y" value="186" />
+    <option name="width" value="1440" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.fehead.testproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.fehead.testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.fehead.testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="dataobject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.fehead.testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.fehead.testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="testproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\testproject\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.fehead.testproject.response" />
+      <recent name="com.fehead.testproject.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\testproject\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.App">
+    <configuration name="SimpleTest.TestLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fehead.testproject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fehead.testproject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fehead.testproject.test.SimpleTest" />
+      <option name="METHOD_NAME" value="TestLabel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest.seleLabel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fehead.testproject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fehead.testproject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fehead.testproject.test.SimpleTest" />
+      <option name="METHOD_NAME" value="seleLabel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest.select_9_Lambda" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fehead.testproject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fehead.testproject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fehead.testproject.test.SimpleTest" />
+      <option name="METHOD_NAME" value="select_9_Lambda" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleTest.testjava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="testproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fehead.testproject.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fehead.testproject.test" />
+      <option name="MAIN_CLASS_NAME" value="com.fehead.testproject.test.SimpleTest" />
+      <option name="METHOD_NAME" value="testjava" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="testproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fehead.testproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fehead.testproject.App" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.App" />
+        <item itemvalue="JUnit.SimpleTest.testjava" />
+        <item itemvalue="JUnit.SimpleTest.TestLabel" />
+        <item itemvalue="JUnit.SimpleTest.seleLabel" />
+        <item itemvalue="JUnit.SimpleTest.select_9_Lambda" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94f509ee-97f5-4832-b058-6b0bf185b5e3" name="Default Changelist" comment="" />
+      <created>1569746621229</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569746621229</updated>
+      <workItem from="1569746625542" duration="5468000" />
+      <workItem from="1569753652606" duration="6858000" />
+      <workItem from="1569762519842" duration="2426000" />
+      <workItem from="1570446562617" duration="7815000" />
+      <workItem from="1570511847138" duration="17268000" />
+      <workItem from="1570611766358" duration="9528000" />
+      <workItem from="1570629098956" duration="624000" />
+      <workItem from="1570675067685" duration="316000" />
+      <workItem from="1570804815410" duration="465000" />
+      <workItem from="1570895912453" duration="1137000" />
+      <workItem from="1570941360647" duration="290000" />
+      <workItem from="1571224788160" duration="5900000" />
+      <workItem from="1571236898583" duration="495000" />
+      <workItem from="1571308439601" duration="11377000" />
+      <workItem from="1571464842408" duration="260000" />
+      <workItem from="1572327155521" duration="5073000" />
+      <workItem from="1572350338722" duration="5799000" />
+      <workItem from="1572423133940" duration="18715000" />
+      <workItem from="1572497861208" duration="198000" />
+      <workItem from="1572500776743" duration="1772000" />
+      <workItem from="1572515889752" duration="9654000" />
+      <workItem from="1572576158209" duration="2295000" />
+      <workItem from="1572587702815" duration="659000" />
+      <workItem from="1572692833748" duration="4524000" />
+      <workItem from="1572698460476" duration="4240000" />
+      <workItem from="1572835580480" duration="1562000" />
+      <workItem from="1572868550064" duration="238000" />
+      <workItem from="1572923825728" duration="1193000" />
+      <workItem from="1572951284117" duration="1345000" />
+      <workItem from="1573009560613" duration="1842000" />
+      <workItem from="1573039660209" duration="2049000" />
+      <workItem from="1573051626469" duration="223000" />
+      <workItem from="1573134132030" duration="821000" />
+      <workItem from="1573179955897" duration="98000" />
+      <workItem from="1573215852688" duration="4266000" />
+      <workItem from="1573305225967" duration="393000" />
+      <workItem from="1573370637963" duration="2698000" />
+      <workItem from="1573464913026" duration="5325000" />
+      <workItem from="1573528828104" duration="3142000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 29m 45s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 31m 07s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 33m 29s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 35m 29s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 52m 00s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 52m 36s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 53m 15s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_TestLabel - 2019.10.31 at 20h 54m 51s.xml">
+      <configuration name="SimpleTest.TestLabel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_testjava - 2019.11.06 at 19h 54m 19s.xml">
+      <configuration name="SimpleTest.testjava" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimpleTest_testjava - 2019.11.06 at 22h 47m 21s.xml">
+      <configuration name="SimpleTest.testjava" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="148351000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31966054" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29035753" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3281471" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="垃圾分类图像识别" />
+    <option name="LAST_COMMIT_MESSAGE" value="垃圾分类图像识别" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((String)((HashMap.Node)jsonObject.entrySet().toArray()[0]).getKey()).hash" custom="java.util.HashMap.Node,java.lang.String" />
+        <watch expression="((HashMap.Node)((com.alibaba.fastjson.JSONObject)((HashMap.Node)jsonObject.entrySet().toArray()[1]).getValue()).entrySet().toArray()[1]).getValue()" custom="com.alibaba.fastjson.JSONObject,java.util.HashMap.Node" />
+        <watch expression="jsonObject" />
+        <watch expression="result" />
+        <watch expression="result" language="JAVA" />
+        <watch expression="result" language="JAVA" />
+        <watch expression="result" language="JAVA" />
+        <watch expression="result" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.2.0/mybatis-plus-extension-3.2.0.jar!/com/baomidou/mybatisplus/extension/plugins/PaginationInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.2.0/mybatis-plus-core-3.2.0.jar!/com/baomidou/mybatisplus/core/conditions/interfaces/Join.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestClassCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.1.8.RELEASE/spring-test-5.1.8.RELEASE.jar!/org/springframework/test/context/support/DefaultTestContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.7.RELEASE/spring-amqp-2.1.7.RELEASE.jar!/org/springframework/amqp/support/converter/MessageConverter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/configuration/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fehead/testproject/response/CommonReturnType.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/response/CommonReturnType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/UserDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1672">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7942">
+          <caret line="517" column="27" selection-start-line="517" selection-start-column="27" selection-end-line="517" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8664">
+          <caret line="510" selection-start-line="510" selection-end-line="510" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE.jar!/org/springframework/web/servlet/mvc/method/AbstractHandlerMethodAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/utils/FileUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="7" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fehead/testproject/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/utils/HttpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fehead/testproject/test/SpringBootAmqpAppTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="54" column="42" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/fehead/testproject/test/SimpleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1314#1315#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spy.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/configuration/MyAMQPConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/imagesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="856">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao/LabelDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dao/UserDOMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/UserserviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#770#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/LabelServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testproject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spy.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/controller/picturesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/service/impl/impl/ImageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/LabelDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.fehead.testproject/dataobject/ImagesDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>testproject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

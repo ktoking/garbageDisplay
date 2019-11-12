@@ -1,0 +1,2397 @@
+ Consume Time��26 ms 2019-10-16 20:19:01
+ Execute SQL��SELECT user_name,user_phone FROM user WHERE (user_name LIKE '%��%' AND user_age = 18)
+
+ Consume Time��42 ms 2019-10-16 20:19:01
+ Execute SQL��DELETE FROM user WHERE (user_name = '����' AND user_age = 15)
+
+ Consume Time��21 ms 2019-10-16 20:19:01
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE (user_name LIKE '%��%')
+
+ Consume Time��21 ms 2019-10-16 20:19:01
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE user_name = '��ٻ'
+
+ Consume Time��42 ms 2019-10-16 20:19:02
+ Execute SQL��DELETE FROM user WHERE id=6
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id FROM user WHERE (user_name LIKE '%��%' AND user_age <= 30)
+
+ Consume Time��63 ms 2019-10-16 20:19:02
+ Execute SQL��INSERT INTO user ( id, user_phone, user_email, user_name, user_age ) VALUES ( 5, '1312312312312', 'sdsadas@qq.com', '��ٻ111', 18 )
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT COUNT( 1 ) FROM user WHERE (user_name LIKE '%��%' AND user_age <= 30)
+
+ Consume Time��42 ms 2019-10-16 20:19:02
+ Execute SQL��UPDATE user SET user_age=27 WHERE (user_name = '��ٻ' AND user_email = 'aiqianqian@qq.com')
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE (user_name LIKE '��%' OR ( (user_age < 30 AND user_age > 18 AND user_email IS NOT NULL) ))
+
+ Consume Time��73 ms 2019-10-16 20:19:02
+ Execute SQL��UPDATE user SET user_email='aiqianqian1@qq.com' WHERE (user_name = '��ٻ' AND user_age = 27)
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT user_name,user_age,user_email FROM user WHERE (user_age IN (20,6,30,15))
+
+ Consume Time��44 ms 2019-10-16 20:19:02
+ Execute SQL��UPDATE user SET user_email='aikaikai@qq.com', user_age=25 WHERE id=4
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE user_name='��ٻ' AND user_age=20
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT COUNT(1) FROM user WHERE (user_age <= 30)
+
+ Consume Time��23 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE (user_age <= 30) LIMIT 0,2
+
+ Consume Time��42 ms 2019-10-16 20:19:02
+ Execute SQL��DELETE FROM user WHERE user_name = '����' AND user_age = 25
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE (user_name LIKE '%��%' OR user_age >= 20) ORDER BY user_age DESC , id ASC
+
+ Consume Time��42 ms 2019-10-16 20:19:02
+ Execute SQL��UPDATE user SET user_email='aiqianqian@qq.com', user_age=26 WHERE (user_name = '��ٻ' AND user_email = 'qianqian@qq.com')
+
+ Consume Time��22 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE (( (user_age < 30 OR user_email IS NOT NULL) ) AND user_name LIKE '��%')
+
+ Consume Time��21 ms 2019-10-16 20:19:02
+ Execute SQL��SELECT id,user_phone,user_email,user_name,user_age FROM user WHERE (user_name LIKE '%��%' AND user_age BETWEEN 20 AND 30 AND user_email IS NOT NULL)
+
+ Consume Time：3 ms 2019-10-31 18:15:44
+ Execute SQL：SELECT id FROM user WHERE (user_name LIKE '%张%' AND user_age <= 30)
+
+ Consume Time：144 ms 2019-10-31 18:26:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：13 ms 2019-10-31 18:39:42
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：14 ms 2019-10-31 18:40:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：12 ms 2019-10-31 18:50:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5212)
+
+ Consume Time：11 ms 2019-10-31 18:50:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1607)
+
+ Consume Time：9 ms 2019-10-31 18:50:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12525)
+
+ Consume Time：11 ms 2019-10-31 18:50:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11547)
+
+ Consume Time：10 ms 2019-10-31 18:50:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5858)
+
+ Consume Time：14 ms 2019-10-31 18:52:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：13 ms 2019-10-31 18:52:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：13 ms 2019-10-31 18:52:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：12 ms 2019-10-31 18:52:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：16 ms 2019-10-31 18:52:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：12 ms 2019-10-31 20:09:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：9 ms 2019-10-31 20:09:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：9 ms 2019-10-31 20:09:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-10-31 20:09:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 20:09:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：12 ms 2019-10-31 20:13:11
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：12 ms 2019-10-31 20:13:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：10 ms 2019-10-31 20:13:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：9 ms 2019-10-31 20:14:55
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：20 ms 2019-10-31 20:17:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：14 ms 2019-10-31 20:17:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：12 ms 2019-10-31 20:17:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：9 ms 2019-10-31 20:18:04
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：10 ms 2019-10-31 20:18:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：12 ms 2019-10-31 20:23:42
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：11 ms 2019-10-31 20:24:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 20:24:45
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：13 ms 2019-10-31 20:24:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：19 ms 2019-10-31 20:25:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：11 ms 2019-10-31 20:25:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：10 ms 2019-10-31 20:26:20
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 20:26:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：12 ms 2019-10-31 20:26:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：12 ms 2019-10-31 20:27:09
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 20:27:28
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：13 ms 2019-10-31 20:29:45
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：15 ms 2019-10-31 20:31:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：10 ms 2019-10-31 20:33:28
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：14 ms 2019-10-31 20:35:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：9 ms 2019-10-31 20:37:44
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：11 ms 2019-10-31 20:40:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 20:42:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 20:43:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：9 ms 2019-10-31 20:44:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：11 ms 2019-10-31 20:51:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：13 ms 2019-10-31 20:52:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：11 ms 2019-10-31 20:53:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：12 ms 2019-10-31 20:54:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = '0')
+
+ Consume Time：11 ms 2019-10-31 20:55:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：9 ms 2019-10-31 20:55:20
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：10 ms 2019-10-31 20:55:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：18 ms 2019-10-31 20:56:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：9 ms 2019-10-31 20:56:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：10 ms 2019-10-31 20:56:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 20:56:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：9 ms 2019-10-31 20:56:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-10-31 20:57:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：11 ms 2019-10-31 20:57:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：12 ms 2019-10-31 20:57:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：15 ms 2019-10-31 20:57:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：10 ms 2019-10-31 20:57:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-10-31 20:57:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：11 ms 2019-10-31 20:57:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：12 ms 2019-10-31 21:04:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：13 ms 2019-10-31 21:04:23
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：9 ms 2019-10-31 21:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：10 ms 2019-10-31 21:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 21:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：10 ms 2019-10-31 21:05:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：12 ms 2019-10-31 21:05:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：9 ms 2019-10-31 21:05:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：10 ms 2019-10-31 21:05:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 21:05:11
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：12 ms 2019-10-31 21:06:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：9 ms 2019-10-31 21:06:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：11 ms 2019-10-31 21:06:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-10-31 21:06:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：11 ms 2019-10-31 21:06:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：14 ms 2019-10-31 21:08:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 21:08:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：22 ms 2019-10-31 21:08:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：12 ms 2019-10-31 21:08:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 21:08:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：12 ms 2019-10-31 21:09:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：14 ms 2019-10-31 21:09:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：17 ms 2019-10-31 21:09:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-10-31 21:09:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：13 ms 2019-10-31 21:09:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：10 ms 2019-10-31 21:09:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：12 ms 2019-10-31 21:09:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：11 ms 2019-10-31 21:09:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：10 ms 2019-10-31 21:09:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 21:09:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：13 ms 2019-10-31 21:10:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 21:10:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：10 ms 2019-10-31 21:10:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：10 ms 2019-10-31 21:10:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 21:10:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：14 ms 2019-10-31 21:12:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 21:12:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：16 ms 2019-10-31 21:12:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：14 ms 2019-10-31 21:12:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：18 ms 2019-10-31 21:12:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：9 ms 2019-10-31 21:13:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：10 ms 2019-10-31 21:13:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：11 ms 2019-10-31 21:13:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-10-31 21:13:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：9 ms 2019-10-31 21:13:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：10 ms 2019-10-31 21:14:25
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：12 ms 2019-10-31 21:14:25
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：11 ms 2019-10-31 21:14:25
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：12 ms 2019-10-31 21:14:25
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 21:14:25
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：10 ms 2019-10-31 21:16:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：11 ms 2019-10-31 21:16:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：10 ms 2019-10-31 21:16:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：9 ms 2019-10-31 21:16:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：11 ms 2019-10-31 21:16:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：11 ms 2019-10-31 21:18:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：14 ms 2019-10-31 21:18:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：13 ms 2019-10-31 21:18:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：10 ms 2019-10-31 21:18:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-10-31 21:18:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：15 ms 2019-10-31 21:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：13 ms 2019-10-31 21:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：12 ms 2019-10-31 21:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：12 ms 2019-10-31 21:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：9 ms 2019-10-31 21:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：13 ms 2019-10-31 21:19:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-10-31 21:19:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-10-31 21:19:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-10-31 21:19:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：13 ms 2019-10-31 21:19:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-10-31 21:22:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：13 ms 2019-10-31 21:22:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：15 ms 2019-10-31 21:22:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：16 ms 2019-10-31 21:22:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：11 ms 2019-10-31 21:22:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：12 ms 2019-10-31 21:24:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8515)
+
+ Consume Time：14 ms 2019-10-31 21:24:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：11 ms 2019-10-31 21:24:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13640)
+
+ Consume Time：16 ms 2019-10-31 21:24:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12971)
+
+ Consume Time：11 ms 2019-10-31 21:24:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15563)
+
+ Consume Time：10 ms 2019-10-31 21:33:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12355)
+
+ Consume Time：9 ms 2019-10-31 21:33:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14184)
+
+ Consume Time：12 ms 2019-10-31 21:33:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16317)
+
+ Consume Time：9 ms 2019-10-31 21:33:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18337)
+
+ Consume Time：9 ms 2019-10-31 21:33:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7047)
+
+ Consume Time：10 ms 2019-10-31 21:33:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-10-31 21:33:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-10-31 21:33:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-10-31 21:33:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：15 ms 2019-10-31 21:33:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-10-31 21:35:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12355)
+
+ Consume Time：10 ms 2019-10-31 21:35:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14184)
+
+ Consume Time：11 ms 2019-10-31 21:35:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16317)
+
+ Consume Time：9 ms 2019-10-31 21:35:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18337)
+
+ Consume Time：13 ms 2019-10-31 21:35:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7047)
+
+ Consume Time：17 ms 2019-10-31 21:37:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：14 ms 2019-10-31 21:37:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：16 ms 2019-10-31 21:37:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：13 ms 2019-10-31 21:37:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：14 ms 2019-10-31 21:37:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：46 ms 2019-11-01 10:46:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-11-01 10:46:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：12 ms 2019-11-01 10:46:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 10:46:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：11 ms 2019-11-01 10:46:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-01 11:03:00
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：8 ms 2019-11-01 11:03:00
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:03:00
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:03:00
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：8 ms 2019-11-01 11:03:00
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-01 11:05:08
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：9 ms 2019-11-01 11:05:08
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：10 ms 2019-11-01 11:05:08
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：10 ms 2019-11-01 11:05:08
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：10 ms 2019-11-01 11:05:08
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：10 ms 2019-11-01 11:07:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：10 ms 2019-11-01 11:07:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：9 ms 2019-11-01 11:07:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-01 11:07:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：10 ms 2019-11-01 11:07:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：8 ms 2019-11-01 11:12:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-01 11:12:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：8 ms 2019-11-01 11:12:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:12:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 11:12:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-01 11:14:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:14:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-11-01 11:14:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:14:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 11:14:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-01 11:15:57
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:15:57
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:15:57
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:15:57
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 11:15:57
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-01 11:16:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:16:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：8 ms 2019-11-01 11:16:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:16:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 11:16:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-01 11:18:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:18:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-01 11:18:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:18:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-01 11:18:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-01 11:29:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:29:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:29:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:29:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-01 11:29:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-01 11:30:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:30:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:30:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:30:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 11:30:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-01 11:31:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-01 11:31:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:31:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:31:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：11 ms 2019-11-01 11:31:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-01 11:34:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：9 ms 2019-11-01 11:34:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：9 ms 2019-11-01 11:34:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-01 11:34:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：10 ms 2019-11-01 11:34:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：9 ms 2019-11-01 11:36:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:36:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:36:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:36:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 11:36:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-01 11:36:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:36:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:36:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:36:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-01 11:36:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-01 11:46:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8515)
+
+ Consume Time：9 ms 2019-11-01 11:46:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-01 11:46:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13640)
+
+ Consume Time：9 ms 2019-11-01 11:46:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12971)
+
+ Consume Time：9 ms 2019-11-01 11:46:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15563)
+
+ Consume Time：9 ms 2019-11-01 11:47:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12355)
+
+ Consume Time：8 ms 2019-11-01 11:47:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14184)
+
+ Consume Time：9 ms 2019-11-01 11:47:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16317)
+
+ Consume Time：9 ms 2019-11-01 11:47:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18337)
+
+ Consume Time：9 ms 2019-11-01 11:47:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7047)
+
+ Consume Time：9 ms 2019-11-01 11:48:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 11:48:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 11:48:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 11:48:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：8 ms 2019-11-01 11:48:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：82 ms 2019-11-01 13:57:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：8 ms 2019-11-01 13:57:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：8 ms 2019-11-01 13:57:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-01 13:57:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：8 ms 2019-11-01 13:57:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-01 13:59:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-01 13:59:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 13:59:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 13:59:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 13:59:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-01 13:59:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：9 ms 2019-11-01 13:59:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：17 ms 2019-11-01 13:59:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：10 ms 2019-11-01 13:59:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：8 ms 2019-11-01 13:59:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：8 ms 2019-11-01 14:00:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：8 ms 2019-11-01 14:00:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：10 ms 2019-11-01 14:00:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：8 ms 2019-11-01 14:00:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：9 ms 2019-11-01 14:00:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-01 14:00:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8515)
+
+ Consume Time：9 ms 2019-11-01 14:00:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-01 14:00:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13640)
+
+ Consume Time：9 ms 2019-11-01 14:00:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12971)
+
+ Consume Time：14 ms 2019-11-01 14:00:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15563)
+
+ Consume Time：9 ms 2019-11-01 14:00:27
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12355)
+
+ Consume Time：9 ms 2019-11-01 14:00:27
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14184)
+
+ Consume Time：8 ms 2019-11-01 14:00:27
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16317)
+
+ Consume Time：8 ms 2019-11-01 14:00:27
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18337)
+
+ Consume Time：10 ms 2019-11-01 14:00:27
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7047)
+
+ Consume Time：8 ms 2019-11-01 14:01:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7635)
+
+ Consume Time：9 ms 2019-11-01 14:01:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16130)
+
+ Consume Time：9 ms 2019-11-01 14:01:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3036)
+
+ Consume Time：9 ms 2019-11-01 14:01:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14938)
+
+ Consume Time：8 ms 2019-11-01 14:01:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9213)
+
+ Consume Time：9 ms 2019-11-01 14:01:42
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：8 ms 2019-11-01 14:01:42
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：8 ms 2019-11-01 14:01:42
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-01 14:01:42
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-01 14:01:42
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-01 14:02:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5212)
+
+ Consume Time：9 ms 2019-11-01 14:02:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1607)
+
+ Consume Time：9 ms 2019-11-01 14:02:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12525)
+
+ Consume Time：10 ms 2019-11-01 14:02:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11547)
+
+ Consume Time：11 ms 2019-11-01 14:02:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5858)
+
+ Consume Time：11 ms 2019-11-01 14:05:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-01 14:05:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-01 14:05:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：11 ms 2019-11-01 14:05:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-01 14:05:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-01 14:05:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：8 ms 2019-11-01 14:05:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：10 ms 2019-11-01 14:05:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：10 ms 2019-11-01 14:05:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：9 ms 2019-11-01 14:05:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：73 ms 2019-11-02 19:29:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-02 19:29:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-02 19:29:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：12 ms 2019-11-02 19:29:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-02 19:29:19
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-02 19:33:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：9 ms 2019-11-02 19:33:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：8 ms 2019-11-02 19:33:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：9 ms 2019-11-02 19:33:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：9 ms 2019-11-02 19:33:26
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：10 ms 2019-11-02 19:42:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：12 ms 2019-11-02 19:42:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：10 ms 2019-11-02 19:42:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-02 19:42:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：9 ms 2019-11-02 19:42:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：9 ms 2019-11-02 19:42:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：8 ms 2019-11-02 19:42:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：8 ms 2019-11-02 19:42:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：8 ms 2019-11-02 19:42:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-02 19:42:31
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-02 19:47:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8515)
+
+ Consume Time：9 ms 2019-11-02 19:47:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-02 19:47:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13640)
+
+ Consume Time：9 ms 2019-11-02 19:47:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12971)
+
+ Consume Time：9 ms 2019-11-02 19:47:29
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15563)
+
+ Consume Time：13 ms 2019-11-02 21:48:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：10 ms 2019-11-02 21:48:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：9 ms 2019-11-02 21:48:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：10 ms 2019-11-02 21:48:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：9 ms 2019-11-02 21:48:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：11 ms 2019-11-02 21:52:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-02 21:52:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-02 21:52:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-02 21:52:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-02 21:52:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-02 22:18:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：9 ms 2019-11-02 22:18:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：8 ms 2019-11-02 22:18:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：8 ms 2019-11-02 22:18:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：9 ms 2019-11-02 22:18:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：11 ms 2019-11-02 22:21:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-02 22:21:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-02 22:21:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-02 22:21:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-02 22:21:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：32 ms 2019-11-04 11:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15846)
+
+ Consume Time：9 ms 2019-11-04 11:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18378)
+
+ Consume Time：9 ms 2019-11-04 11:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5335)
+
+ Consume Time：9 ms 2019-11-04 11:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5012)
+
+ Consume Time：8 ms 2019-11-04 11:04:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5345)
+
+ Consume Time：10 ms 2019-11-04 11:14:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-04 11:14:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：8 ms 2019-11-04 11:14:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：12 ms 2019-11-04 11:14:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：8 ms 2019-11-04 11:14:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：13 ms 2019-11-04 11:16:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-04 11:16:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：12 ms 2019-11-04 11:16:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：13 ms 2019-11-04 11:16:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：12 ms 2019-11-04 11:16:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：13 ms 2019-11-04 11:17:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：17 ms 2019-11-04 11:17:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：10 ms 2019-11-04 11:17:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：13 ms 2019-11-04 11:17:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：12 ms 2019-11-04 11:17:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-04 11:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：11 ms 2019-11-04 11:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：9 ms 2019-11-04 11:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-04 11:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：10 ms 2019-11-04 11:19:40
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：11 ms 2019-11-04 11:21:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：10 ms 2019-11-04 11:21:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：11 ms 2019-11-04 11:21:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-04 11:21:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：11 ms 2019-11-04 11:21:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：10 ms 2019-11-04 11:23:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11975)
+
+ Consume Time：9 ms 2019-11-04 11:23:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8332)
+
+ Consume Time：11 ms 2019-11-04 11:23:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18775)
+
+ Consume Time：10 ms 2019-11-04 11:23:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17038)
+
+ Consume Time：11 ms 2019-11-04 11:23:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17584)
+
+ Consume Time：10 ms 2019-11-04 11:30:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-11-04 11:30:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-04 11:30:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-04 11:30:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-04 11:30:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-04 11:32:34
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3487)
+
+ Consume Time：11 ms 2019-11-04 11:32:34
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3490)
+
+ Consume Time：12 ms 2019-11-04 11:32:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9075)
+
+ Consume Time：9 ms 2019-11-04 11:32:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19057)
+
+ Consume Time：10 ms 2019-11-04 11:32:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1034)
+
+ Consume Time：10 ms 2019-11-04 11:32:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7635)
+
+ Consume Time：9 ms 2019-11-04 11:32:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16130)
+
+ Consume Time：9 ms 2019-11-04 11:32:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3036)
+
+ Consume Time：12 ms 2019-11-04 11:32:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14938)
+
+ Consume Time：9 ms 2019-11-04 11:32:58
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9213)
+
+ Consume Time：11 ms 2019-11-04 11:34:44
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 4321)
+
+ Consume Time：10 ms 2019-11-04 11:34:44
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15787)
+
+ Consume Time：11 ms 2019-11-04 11:34:44
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12058)
+
+ Consume Time：9 ms 2019-11-04 11:34:44
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 2427)
+
+ Consume Time：12 ms 2019-11-04 11:34:44
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 2291)
+
+ Consume Time：12 ms 2019-11-04 11:38:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：13 ms 2019-11-04 11:38:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：9 ms 2019-11-04 11:38:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-11-04 11:38:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-11-04 11:38:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：14 ms 2019-11-04 13:18:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：12 ms 2019-11-04 13:18:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：11 ms 2019-11-04 13:18:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：11 ms 2019-11-04 13:18:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：10 ms 2019-11-04 13:18:33
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：12 ms 2019-11-04 13:22:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13226)
+
+ Consume Time：12 ms 2019-11-04 13:22:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15443)
+
+ Consume Time：13 ms 2019-11-04 13:22:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5728)
+
+ Consume Time：11 ms 2019-11-04 13:22:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12936)
+
+ Consume Time：12 ms 2019-11-04 13:22:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15336)
+
+ Consume Time：16 ms 2019-11-04 13:23:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 2759)
+
+ Consume Time：15 ms 2019-11-04 13:23:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 4992)
+
+ Consume Time：10 ms 2019-11-04 13:23:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14508)
+
+ Consume Time：10 ms 2019-11-04 13:23:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1314)
+
+ Consume Time：9 ms 2019-11-04 13:23:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14930)
+
+ Consume Time：11 ms 2019-11-04 13:23:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7664)
+
+ Consume Time：10 ms 2019-11-04 13:23:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14604)
+
+ Consume Time：12 ms 2019-11-04 13:23:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11840)
+
+ Consume Time：12 ms 2019-11-04 13:23:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 413)
+
+ Consume Time：14 ms 2019-11-04 13:23:17
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7195)
+
+ Consume Time：14 ms 2019-11-04 19:56:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-04 19:56:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-04 19:56:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：12 ms 2019-11-04 19:56:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-04 19:56:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-04 19:58:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18093)
+
+ Consume Time：11 ms 2019-11-04 19:58:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19912)
+
+ Consume Time：9 ms 2019-11-04 19:58:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1915)
+
+ Consume Time：10 ms 2019-11-04 19:58:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13898)
+
+ Consume Time：11 ms 2019-11-04 19:58:50
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16154)
+
+ Consume Time：10 ms 2019-11-04 19:59:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11975)
+
+ Consume Time：9 ms 2019-11-04 19:59:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8332)
+
+ Consume Time：11 ms 2019-11-04 19:59:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18775)
+
+ Consume Time：9 ms 2019-11-04 19:59:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17038)
+
+ Consume Time：11 ms 2019-11-04 19:59:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17584)
+
+ Consume Time：36 ms 2019-11-05 11:46:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：9 ms 2019-11-05 11:46:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：8 ms 2019-11-05 11:46:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-05 11:46:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：9 ms 2019-11-05 11:46:53
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：9 ms 2019-11-05 11:48:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：8 ms 2019-11-05 11:48:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：13 ms 2019-11-05 11:48:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-05 11:48:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：8 ms 2019-11-05 11:48:24
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-05 12:13:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18093)
+
+ Consume Time：10 ms 2019-11-05 12:13:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19912)
+
+ Consume Time：9 ms 2019-11-05 12:13:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1915)
+
+ Consume Time：9 ms 2019-11-05 12:13:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13898)
+
+ Consume Time：8 ms 2019-11-05 12:13:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16154)
+
+ Consume Time：9 ms 2019-11-05 12:28:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11975)
+
+ Consume Time：9 ms 2019-11-05 12:28:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8332)
+
+ Consume Time：9 ms 2019-11-05 12:28:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18775)
+
+ Consume Time：8 ms 2019-11-05 12:28:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17038)
+
+ Consume Time：9 ms 2019-11-05 12:28:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17584)
+
+ Consume Time：43 ms 2019-11-05 19:01:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：12 ms 2019-11-05 19:01:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：12 ms 2019-11-05 19:01:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：15 ms 2019-11-05 19:01:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：13 ms 2019-11-05 19:01:07
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-05 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5212)
+
+ Consume Time：8 ms 2019-11-05 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1607)
+
+ Consume Time：10 ms 2019-11-05 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12525)
+
+ Consume Time：10 ms 2019-11-05 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11547)
+
+ Consume Time：9 ms 2019-11-05 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5858)
+
+ Consume Time：8 ms 2019-11-05 19:06:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5212)
+
+ Consume Time：9 ms 2019-11-05 19:06:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1607)
+
+ Consume Time：8 ms 2019-11-05 19:06:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12525)
+
+ Consume Time：9 ms 2019-11-05 19:06:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11547)
+
+ Consume Time：9 ms 2019-11-05 19:06:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5858)
+
+ Consume Time：9 ms 2019-11-05 19:06:45
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：9 ms 2019-11-05 19:06:45
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：9 ms 2019-11-05 19:06:45
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-05 19:06:45
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：9 ms 2019-11-05 19:06:45
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：139 ms 2019-11-10 16:38:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 16:38:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 16:38:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 16:38:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 16:38:14
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 16:56:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-10 16:56:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 16:56:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 16:56:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：11 ms 2019-11-10 16:56:06
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 16:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-11-10 16:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-11-10 16:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-10 16:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 16:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 16:59:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15846)
+
+ Consume Time：9 ms 2019-11-10 16:59:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18378)
+
+ Consume Time：9 ms 2019-11-10 16:59:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5335)
+
+ Consume Time：9 ms 2019-11-10 16:59:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5012)
+
+ Consume Time：9 ms 2019-11-10 16:59:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5345)
+
+ Consume Time：11 ms 2019-11-10 17:00:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 17:00:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 17:00:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：11 ms 2019-11-10 17:00:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：12 ms 2019-11-10 17:00:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 17:00:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 17:00:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 17:00:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 17:00:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 17:00:48
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 17:02:04
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 17:02:04
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 17:02:04
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-10 17:02:04
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 17:02:04
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 17:03:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18093)
+
+ Consume Time：9 ms 2019-11-10 17:03:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19912)
+
+ Consume Time：9 ms 2019-11-10 17:03:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1915)
+
+ Consume Time：11 ms 2019-11-10 17:03:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13898)
+
+ Consume Time：10 ms 2019-11-10 17:03:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16154)
+
+ Consume Time：10 ms 2019-11-10 17:11:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 17:11:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 17:11:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 17:11:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 17:11:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 17:11:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15846)
+
+ Consume Time：10 ms 2019-11-10 17:11:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18378)
+
+ Consume Time：13 ms 2019-11-10 17:11:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5335)
+
+ Consume Time：10 ms 2019-11-10 17:11:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5012)
+
+ Consume Time：9 ms 2019-11-10 17:11:59
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5345)
+
+ Consume Time：10 ms 2019-11-10 17:19:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 17:19:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 17:19:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 17:19:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 17:19:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 17:20:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-11-10 17:20:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-11-10 17:20:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：13 ms 2019-11-10 17:20:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：12 ms 2019-11-10 17:20:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 17:21:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 17:21:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 17:21:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-10 17:21:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 17:21:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-10 17:22:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-11-10 17:22:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-11-10 17:22:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：11 ms 2019-11-10 17:22:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 17:22:30
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：11 ms 2019-11-10 17:24:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：12 ms 2019-11-10 17:24:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 17:24:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-10 17:24:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 17:24:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 17:25:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-10 17:25:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 17:25:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-10 17:25:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 17:25:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：14 ms 2019-11-10 17:33:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：12 ms 2019-11-10 17:33:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-11-10 17:33:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：12 ms 2019-11-10 17:33:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 17:33:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 17:34:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15846)
+
+ Consume Time：9 ms 2019-11-10 17:34:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18378)
+
+ Consume Time：10 ms 2019-11-10 17:34:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5335)
+
+ Consume Time：9 ms 2019-11-10 17:34:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5012)
+
+ Consume Time：10 ms 2019-11-10 17:34:03
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5345)
+
+ Consume Time：9 ms 2019-11-10 17:38:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：10 ms 2019-11-10 17:38:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：11 ms 2019-11-10 17:38:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：10 ms 2019-11-10 17:38:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：9 ms 2019-11-10 17:38:56
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：10 ms 2019-11-10 17:39:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 4321)
+
+ Consume Time：10 ms 2019-11-10 17:39:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13581)
+
+ Consume Time：9 ms 2019-11-10 17:39:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 10340)
+
+ Consume Time：9 ms 2019-11-10 17:39:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19689)
+
+ Consume Time：11 ms 2019-11-10 17:39:35
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8076)
+
+ Consume Time：12 ms 2019-11-10 18:42:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-10 18:42:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 18:42:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 18:42:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 18:42:36
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 18:46:23
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 18:46:23
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 18:46:23
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 18:46:23
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：12 ms 2019-11-10 18:46:23
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 18:49:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8515)
+
+ Consume Time：10 ms 2019-11-10 18:49:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-10 18:49:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13640)
+
+ Consume Time：10 ms 2019-11-10 18:49:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12971)
+
+ Consume Time：10 ms 2019-11-10 18:49:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15563)
+
+ Consume Time：10 ms 2019-11-10 18:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-11-10 18:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：11 ms 2019-11-10 18:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 18:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：8 ms 2019-11-10 18:57:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 18:57:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 18:57:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 18:57:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-10 18:57:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 18:57:41
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 19:01:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 19:01:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 19:01:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：10 ms 2019-11-10 19:01:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 19:01:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 19:01:34
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16837)
+
+ Consume Time：9 ms 2019-11-10 19:01:34
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19057)
+
+ Consume Time：10 ms 2019-11-10 19:01:34
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 10340)
+
+ Consume Time：9 ms 2019-11-10 19:01:34
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3487)
+
+ Consume Time：9 ms 2019-11-10 19:01:34
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9075)
+
+ Consume Time：11 ms 2019-11-10 19:03:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7635)
+
+ Consume Time：10 ms 2019-11-10 19:03:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16130)
+
+ Consume Time：10 ms 2019-11-10 19:03:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3036)
+
+ Consume Time：9 ms 2019-11-10 19:03:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14938)
+
+ Consume Time：10 ms 2019-11-10 19:03:46
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9213)
+
+ Consume Time：10 ms 2019-11-10 19:04:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：9 ms 2019-11-10 19:04:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：9 ms 2019-11-10 19:04:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：10 ms 2019-11-10 19:04:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：9 ms 2019-11-10 19:04:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-10 19:04:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12355)
+
+ Consume Time：9 ms 2019-11-10 19:04:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14184)
+
+ Consume Time：9 ms 2019-11-10 19:04:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16317)
+
+ Consume Time：10 ms 2019-11-10 19:04:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18337)
+
+ Consume Time：10 ms 2019-11-10 19:04:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7047)
+
+ Consume Time：10 ms 2019-11-10 19:04:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16837)
+
+ Consume Time：10 ms 2019-11-10 19:04:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19057)
+
+ Consume Time：10 ms 2019-11-10 19:04:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 10340)
+
+ Consume Time：11 ms 2019-11-10 19:04:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3487)
+
+ Consume Time：9 ms 2019-11-10 19:04:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9075)
+
+ Consume Time：12 ms 2019-11-10 19:04:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8515)
+
+ Consume Time：10 ms 2019-11-10 19:04:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：10 ms 2019-11-10 19:04:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13640)
+
+ Consume Time：11 ms 2019-11-10 19:04:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12971)
+
+ Consume Time：13 ms 2019-11-10 19:04:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15563)
+
+ Consume Time：10 ms 2019-11-10 19:05:20
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 19:05:20
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 19:05:20
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 19:05:20
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 19:05:20
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-10 19:05:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-10 19:05:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-10 19:05:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 19:05:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-10 19:05:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5212)
+
+ Consume Time：12 ms 2019-11-10 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1607)
+
+ Consume Time：9 ms 2019-11-10 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12525)
+
+ Consume Time：13 ms 2019-11-10 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11547)
+
+ Consume Time：13 ms 2019-11-10 19:06:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5858)
+
+ Consume Time：10 ms 2019-11-10 19:11:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：15 ms 2019-11-10 19:11:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：11 ms 2019-11-10 19:11:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：9 ms 2019-11-10 19:11:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：10 ms 2019-11-10 19:11:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：11 ms 2019-11-10 19:14:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：11 ms 2019-11-10 19:14:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-10 19:14:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-10 19:14:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-10 19:14:32
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-10 19:14:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：10 ms 2019-11-10 19:14:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：11 ms 2019-11-10 19:14:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：11 ms 2019-11-10 19:14:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：12 ms 2019-11-10 19:14:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：10 ms 2019-11-10 19:15:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17401)
+
+ Consume Time：11 ms 2019-11-10 19:15:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8913)
+
+ Consume Time：10 ms 2019-11-10 19:15:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12553)
+
+ Consume Time：9 ms 2019-11-10 19:15:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1992)
+
+ Consume Time：11 ms 2019-11-10 19:15:05
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19863)
+
+ Consume Time：10 ms 2019-11-10 19:15:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：10 ms 2019-11-10 19:15:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：9 ms 2019-11-10 19:15:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：10 ms 2019-11-10 19:15:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：10 ms 2019-11-10 19:15:47
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：10 ms 2019-11-10 19:21:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 12835)
+
+ Consume Time：11 ms 2019-11-10 19:21:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19516)
+
+ Consume Time：11 ms 2019-11-10 19:21:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1948)
+
+ Consume Time：9 ms 2019-11-10 19:21:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9844)
+
+ Consume Time：10 ms 2019-11-10 19:21:37
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3761)
+
+ Consume Time：15 ms 2019-11-11 18:33:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-11 18:33:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-11 18:33:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：8 ms 2019-11-11 18:33:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-11 18:33:18
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-11 18:36:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15846)
+
+ Consume Time：9 ms 2019-11-11 18:36:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18378)
+
+ Consume Time：9 ms 2019-11-11 18:36:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5335)
+
+ Consume Time：9 ms 2019-11-11 18:36:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5012)
+
+ Consume Time：9 ms 2019-11-11 18:36:51
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5345)
+
+ Consume Time：10 ms 2019-11-11 18:37:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-11 18:37:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：16 ms 2019-11-11 18:37:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-11 18:37:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-11 18:37:15
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-11 18:39:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 4117)
+
+ Consume Time：9 ms 2019-11-11 18:39:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9148)
+
+ Consume Time：9 ms 2019-11-11 18:39:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7013)
+
+ Consume Time：9 ms 2019-11-11 18:39:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1747)
+
+ Consume Time：11 ms 2019-11-11 18:39:52
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19155)
+
+ Consume Time：10 ms 2019-11-11 18:42:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-11 18:42:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-11 18:42:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-11 18:42:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-11 18:42:22
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-11 18:44:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-11 18:44:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-11 18:44:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-11 18:44:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：9 ms 2019-11-11 18:44:43
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：9 ms 2019-11-11 18:44:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 161)
+
+ Consume Time：9 ms 2019-11-11 18:44:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 6385)
+
+ Consume Time：9 ms 2019-11-11 18:44:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1729)
+
+ Consume Time：15 ms 2019-11-11 18:44:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9545)
+
+ Consume Time：10 ms 2019-11-11 18:44:54
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15938)
+
+ Consume Time：9 ms 2019-11-11 18:47:21
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1532)
+
+ Consume Time：9 ms 2019-11-11 18:47:21
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1515)
+
+ Consume Time：9 ms 2019-11-11 18:47:21
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1313)
+
+ Consume Time：10 ms 2019-11-11 18:47:21
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18461)
+
+ Consume Time：9 ms 2019-11-11 18:47:21
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 3771)
+
+ Consume Time：11 ms 2019-11-11 18:48:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17896)
+
+ Consume Time：10 ms 2019-11-11 18:48:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15086)
+
+ Consume Time：12 ms 2019-11-11 18:48:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15079)
+
+ Consume Time：12 ms 2019-11-11 18:48:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11793)
+
+ Consume Time：10 ms 2019-11-11 18:48:10
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16076)
+
+ Consume Time：9 ms 2019-11-11 18:50:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：9 ms 2019-11-11 18:50:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-11 18:50:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-11 18:50:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-11 18:50:13
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：10 ms 2019-11-11 18:52:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7664)
+
+ Consume Time：10 ms 2019-11-11 18:52:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14604)
+
+ Consume Time：10 ms 2019-11-11 18:52:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11840)
+
+ Consume Time：11 ms 2019-11-11 18:52:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 413)
+
+ Consume Time：10 ms 2019-11-11 18:52:01
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7195)
+
+ Consume Time：56 ms 2019-11-11 18:57:38
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 4117)
+
+ Consume Time：11 ms 2019-11-11 18:57:38
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9148)
+
+ Consume Time：12 ms 2019-11-11 18:57:38
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 7013)
+
+ Consume Time：9 ms 2019-11-11 18:57:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 1747)
+
+ Consume Time：10 ms 2019-11-11 18:57:39
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19155)
+
+ Consume Time：11 ms 2019-11-11 19:00:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：12 ms 2019-11-11 19:00:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：9 ms 2019-11-11 19:00:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：11 ms 2019-11-11 19:00:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-11 19:00:02
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
+ Consume Time：12 ms 2019-11-11 19:23:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15159)
+
+ Consume Time：9 ms 2019-11-11 19:23:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 18020)
+
+ Consume Time：9 ms 2019-11-11 19:23:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 19154)
+
+ Consume Time：9 ms 2019-11-11 19:23:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16906)
+
+ Consume Time：9 ms 2019-11-11 19:23:16
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 17115)
+
+ Consume Time：10 ms 2019-11-11 19:23:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 8767)
+
+ Consume Time：11 ms 2019-11-11 19:23:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 14062)
+
+ Consume Time：13 ms 2019-11-11 19:23:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 9316)
+
+ Consume Time：10 ms 2019-11-11 19:23:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 10526)
+
+ Consume Time：9 ms 2019-11-11 19:23:49
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 16341)
+
+ Consume Time：11 ms 2019-11-11 19:38:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13847)
+
+ Consume Time：10 ms 2019-11-11 19:38:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 5202)
+
+ Consume Time：10 ms 2019-11-11 19:38:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 13698)
+
+ Consume Time：9 ms 2019-11-11 19:38:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 11650)
+
+ Consume Time：10 ms 2019-11-11 19:38:12
+ Execute SQL：SELECT id,english_name,classes,name,label FROM images WHERE (label = 15239)
+
